@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/styles.css">
+  <style>
+    .car-images img {
+      position: absolute;
+      top: 200px; /* Adjust as needed */
+      right: 100px; /* Adjust as needed */
+      width: 400px; /* Adjust as needed */
+      height: 500px; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="frame">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <h3>Email</h3>
+        <p>info@imaginativecompany.com</p>
+        <h3>Phone</h3>
+        <p>+1 (555) 123-4567</p>
+        <h3>Address</h3>
+        <p>
+          123 Fantasy Avenue, <br>
+          Dreamland, <br>
+          Cloud Nine, Universe
+        </p>
+        <h3>Customer Service</h3>
+        <p>Please feel free to contact our customer service team for any assistance you may need.</p>
+      </div>
+      <div class="call-service">
+        <img src="/static/contactus.png" width="30" height="300" alt="Call Service">
+      </div>
+      <div class="dotted-line"></div>
+      <div class="car-images">
+        <img src="/static/car_dealership.jpg" alt="Car Dealership">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
